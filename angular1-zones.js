@@ -1,4 +1,4 @@
-﻿angular.module("ngZone", []).run(["$rootScope", function ($rootScope) {
+﻿angular.module("ngZone", []).run(["$rootScope", "$exceptionHandler", function ($rootScope, $exceptionHandler) {
     var scopePrototype = $rootScope.constructor.prototype;
 
     var originalApply = scopePrototype.$apply;
