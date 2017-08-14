@@ -6,7 +6,9 @@
     var zoneOptions = {
         afterTask: function () {
             try {
-                $rootScope.$digest();
+                if ($rootScope.$$phase === null) {
+                    $rootScope.$digest();
+                }
             } catch (e) {
                 $exceptionHandler(e);
                 throw e;
