@@ -1,0 +1,22 @@
+{
+  "name": "angular1-zones",
+  "version": "1.0.0",
+  "description": "With zone.js Angular 1.x application does not need to call $scope.$apply at the end of an asynchronous activity. Zone.js is able to monitor any async activity and inform our code to run a digest cycle.",
+  "main": "angular1-zones.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apolloteam/angular1-zones.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apolloteam/angular1-zones/issues"
+  },
+  "homepage": "https://github.com/apolloteam/angular1-zones#readme",
+  "dependencies": {
+    "zone": "~0.3.4"
+  }
+}
